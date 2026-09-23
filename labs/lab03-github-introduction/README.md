@@ -118,6 +118,6 @@ A **README** explains the project.
 
 *Markdown* formats text.
 
-[My GitHub Profile](https://github.com/OliverT-Cloud/software-systems-110/blob/main/labs/lab03-github-introduction/README.md)
+[My GitHub Profile](https://github.com/OliverT-Cloud/)
 
 
