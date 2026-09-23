@@ -84,5 +84,40 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
+# My GitHub Notes
+
+## Important Git Terms
+
+A **repository** stores project files.
+
+A *clone* copies a repository to my computer.
+
+### Terms I Learned
+
+* Repository = stores project files
+* Clone = copies repo to my computer
+* Branch = separate place to make changes
+
+---
+
+## Git Workflow
+
+1. Create or open the repository.
+2. Make changes in a branch.
+3. Commit and push the changes.
+
+### My Lab Checklist
+
+* [x] Repository = stores project files
+* [x] Commit = saves changes
+* [x] Push = uploads commits to GitHub
+
+## README and Markdown
+
+A **README** explains the project.
+
+*Markdown* formats text.
+
+[My GitHub Profile](https://github.com/OliverT-Cloud/software-systems-110/blob/main/labs/lab03-github-introduction/README.md)
+
 
