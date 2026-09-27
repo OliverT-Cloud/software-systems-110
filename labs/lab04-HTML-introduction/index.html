@@ -364,11 +364,91 @@
 
         <h1>Section 3: Student Demonstration</h1>
 
-        <p>
-            Delete this line and write your notes here using HTML syntax to format them.
-        </p>
-
+        <h2>HTML BASIC</h2>
+        <p>HTML is a markup languange / and structure language to layout <br> the gard rails for the other code like JS and CSS</p>
     </div>
+
+    <div>
+        <h1>How Headings Are Used</h1>
+        <h2>HTML BASIC</h2>
+
+        <h3>Heading 3</h3>
+        <p>This Is How Heading 3 Looks and is used by doing "&lt;h3&gt;Your Heading&lt;/h3&gt;"</p>
+
+        <h4>Heading 4</h4>
+        <p>This Is How Heading 4 Looks and is used by doing "&lt;h4&gt;Your Heading&lt;/h4&gt;"</p>
+
+        <h5>Heading 5</h5>
+        <p>This Is How Heading 5 Looks and is used by doing "&lt;h5&gt;Your Heading&lt;/h5&gt;"</p>
+
+        <h6>Heading 6</h6>
+        <p>This Is How Heading 6 Looks and is used by doing "&lt;h6&gt;Your Heading&lt;/h6&gt;"</p>
+    </div>
+
+    <div>
+        <h1>How Href Is Used</h1>
+
+        <p>This is a Link to <a href="https://github.com/OliverT-Cloud">My GitHub</a> </p>
+
+        <br>
+
+        <img src="./assets/Screenshot 2026-09-27 134134.png" alt="Screenshot of my github profile" width="400" height="200">
+    </div>
+
+<div>
+    <h1>HTML BASIC</h1>
+    <h2>Input Types</h2>
+    <p> <input type="text" placeholder="This is where you type"> </p>
+    <p> This is a checkbox it allows you to make toggles <input type="checkbox"> </p>
+    <p> <button>This is a button</button> </p>
+</div>
+
+<div>
+    <h1> HTML BASIC </h1>
+    <h2> How To Make Lists </h2>
+    <br>
+    <h3> How Make A Ordered List </h3>
+    <ol>
+        <li> <p>This Is Step 1, First Start By Making a new section using &lt;div&gt; &lt;/div&gt;</p> </li>
+        <li> <p>This Is Step 2, Second step is to add &lt;ol&gt; &lt;/ol&gt;</p> </li>
+        <li> <p>This IS Step 3, Third step is to add &lt;li&gt;Your thing that you are listing &lt;/li&gt; between &lt;ol&gt; &lt;/ol&gt; to then fill out the list in an ordered fashion</p> </li>
+    </ol>
+    <br>
+    <h3>How to make a unordered list/Bulletpoint style</h3>
+    <ul>
+        <li> <p>This Is Step 1, First Start By Making a new section using &lt;div&gt; &lt;/div&gt;</p> </li>
+        <li> <p>This Is Step 2, Second step is to add &lt;ul&gt; &lt;/ul&gt;</p> </li>
+        <li> <p>This IS Step 3, Third step is to add &lt;li&gt;Your thing that you are listing &lt;/li&gt; between &lt;ul&gt; &lt;/ul&gt; to then fill out the list like you would with bullet points</p> </li>
+    </ul>
+    
+    <h5><strong>Extra Stuff I learned</strong></h5>
+    <p> You can also do <strong>Bold</strong> by using &lt;strong&gt; text you want bold &lt;/strong&gt; </p>
+
+    <p><strong>This is A little bit of java script to show how buttons can work</strong></p>
+
+    <button onclick="colortext.style.color=['red', 'green', 'blue','yellow', 'rgb(255, 216, 120)'][i++%5]; counter.innerText='Clicks: '+i">Click</button>
+    <p id="colortext">Hello Color?</p>
+    <p id="counter">Clicks: 0</p>
+    <script>let i=0;</script>
+
+    <h5>Color Picker I wanted to make</h5>
+    red: <input type="range" id="r" min="0" max="255" value="0" oninput="update()"><br>
+    green: <input type="range" id="g" min="0" max="255" value="0" oninput="update()"><br>
+    blue: <input type="range" id="b" min="0" max="255" value="0" oninput="update()"><br>
+    alpha: <input type="range" id="a" min="0" max="100" value="100" oninput="update()"><br>
+
+    <p id="rgba">rgb: (0, 0, 0, 100%) </p>
+
+    <div id="preview" style="width:200px;height:100px;background:rgba(0, 0, 0, 1);"> </div>
+    <script>
+        function update() {
+            let color = `rgba(${r.value}, ${g.value}, ${b.value}, ${a.value}%)`;
+            document.getElementById("preview").style.background = color;
+            document.getElementById("rgba").innerText = color;
+        }
+    </script>
+
+</div>
 
 </body>
 </html>
