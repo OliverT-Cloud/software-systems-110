@@ -60,14 +60,14 @@ Complete all of the following in your notes section.
 
 ## Checklist
 
-- [ ] Create at least three headers (Level 1, Level 2, Level 3)
-- [ ] Include one horizontal rule
-- [ ] Use bold text
-- [ ] Use italic text
-- [ ] Create a bullet list containing at least three items
-- [ ] Create a numbered list containing at least three items
-- [ ] Create a task list containing at least three tasks
-- [ ] Add a hyperlink with your GitHub profile
+- [x] Create at least three headers (Level 1, Level 2, Level 3)
+- [x] Include one horizontal rule
+- [x] Use bold text
+- [x] Use italic text
+- [x] Create a bullet list containing at least three items
+- [x] Create a numbered list containing at least three items
+- [x] Create a task list containing at least three tasks
+- [x] Add a hyperlink with your GitHub profile
 
 ## Instructions
 
@@ -121,3 +121,30 @@ A **README** explains the project.
 [My GitHub Profile](https://github.com/OliverT-Cloud/)
 
 
+# What is GitHub?
+- It helps people save, share, and collaborate
+on files.
+ - GitHub uses Git, a version control system that
+tracks changes to files.
+- Developers use GitHub to work together and
+keep project history.
+
+## GitHib Less Important Facts
+1. A repository is a project folder stored in
+GitHub
+2. It contains files, folders, and version history.
+3. Most GitHub work happens inside a
+repository
+
+### GitHub Notes I dont care about 
+
+- [x] Rename slides
+- [ ] Checklist
+- [ ] Grade Github Intro for Student 
+
+**GitHub** is a *website* that stores and manages
+code projects.
+
+[GitHub](https://github.com/hannahborreson)
+
+---
