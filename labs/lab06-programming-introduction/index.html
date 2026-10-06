@@ -36,6 +36,7 @@
         <div class="container">
 
             <h1>Decision Making Program</h1>
+            <h1>By - Tyler Oliver</h1>
 
             <p>
                 Change the boolean variables below and then run the program.
@@ -65,6 +66,26 @@
                     </label>
 
                     <select id="helloInput">
+                        <option value="true">true</option>
+                        <option value="false" selected>false</option>
+                    </select>
+
+                </div>
+
+
+                <div class="variable-card">
+
+                    <h3>Hello Option</h3>
+
+                    <p>
+                        Should I say "Hello, Tyler"?
+                    </p>
+
+                    <label for="TylerInput">
+                        Set <strong>doISayHello</strong> to:&nbsp;
+                    </label>
+
+                    <select id="TylerInput">
                         <option value="true">true</option>
                         <option value="false" selected>false</option>
                     </select>
@@ -108,6 +129,7 @@
 
         let doISayHello = false;
         let doISayGoodbye = false;
+        let doISayTyler = false;
 
         function updateVariables() {
 
@@ -116,6 +138,9 @@
 
             doISayGoodbye =
                 document.getElementById("goodbyeInput").value == "true";
+
+            doISayTyler = 
+                document.getElementById("TylerInput").value == "true";
 
         }
 
@@ -145,7 +170,7 @@
                 doISayHello = true
                 doISayGoodbye = true
              
-                Observation:
+                Observation: it says hello world and "im tired of being outside im going inside now" at the bottom 
             
                 ***********************************************************************
                 
@@ -153,7 +178,7 @@
                 doISayHello = false
                 doISayGoodbye = false
              
-                Observation:
+                Observation: it says why am i even out here its cold and "im tired of being outside im going inside now" at the bottom
             
                 ***********************************************************************
 
@@ -161,7 +186,7 @@
                 doISayHello = true
                 doISayGoodbye = false
              
-                Observation:
+                Observation:it says hello world and "im tired of being outside im going inside now" at the bottom
 
                 ***********************************************************************    
 
@@ -169,7 +194,7 @@
                 doISayHello = false
                 doISayGoodbye = true
              
-                Observation:
+                Observation: it says goodbye world and "im tired of being outside im going inside now" at the bottom
                 
             */
     
@@ -187,12 +212,18 @@
                 // Assign a goodbye message.
                 message = "Goodbye, World!";
 
+            } else if(doISayTyler == true) {
+
+                // Hello Tyler
+                message = "Hello Tyler";
+
             } else {
 
-                // Assign a default message.
-                message = "Why am I even out here? It's cold.";
-
+                message= "why dont we say hello?";
+                
             }
+            
+             
 
             // Assign a message that always displays.
             finalMessage = "I am tired of being outside. I am going inside now.";
